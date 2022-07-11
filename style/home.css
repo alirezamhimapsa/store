@@ -1,0 +1,102 @@
+@font-face {
+	font-family: 'Yekan';
+	src:	url('../fonts/Yekan.eot'); /* IE9 Compat Modes */
+	src:	url('../fonts/Yekan.eot') format('embedded-opentype'), /* IE6-IE8 */
+			url('../fonts/Yekan.woff2') format('woff2'), /* Modern Browsers */
+			url('../fonts/Yekan.woff') format('woff'), /* Modern Browsers */
+			url('../fonts/Yekan.otf') format('opentype'), /* Open Type Font */	
+			url('../fonts/Yekan.ttf') format('truetype'); /* Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: auto;
+}
+body{
+    font-family:'Yekan' ;
+}
+.form-navbar{
+    padding-right: 40px;
+}
+.type-conteiner{
+    display: inline-block;
+}
+.part-one{
+    /* background-image: url(../image/Untitled.png); */
+    /* background-repeat: no-repeat; */
+    /* height: 100%; */
+    /* background-attachment: scroll; */
+}
+.type-oute{
+    overflow: hidden;
+    border-left: .15em solid #ff7300;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 4s forwards;
+    -webkit-animation: typing 4s forwards;
+} 
+ @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+.p-partone{
+    text-align: justify;
+}
+.second-part{
+    background: url(../image/Untitled.png) no-repeat left bottom;
+}
+.text-orange{
+   color : #ff7300;
+}
+.image{
+    width: 300vw;
+}
+.image img{
+    width: 100%;
+}
+.four-part{
+    background: url(../image/Untitled3.png) no-repeat left top;
+}
+.location{
+    cursor: pointer;
+}
+.cursor{
+    cursor: pointer;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ff7300;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #e16500; 
+  }
+.atag{
+    text-decoration: none;
+    color: #ff7300;
+}
+/* .masage-footer{
+    width: 75% ;
+} */
+@media(max-width: 840px) {
+    .etemad{
+        width: 100%;
+    }
+    .masage-footer{
+        width: 100% ;
+    }
+}
+.p-footer{
+    text-align: justify;
+}
